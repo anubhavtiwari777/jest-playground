@@ -3,7 +3,7 @@ const add = require("./calculator");
 describe("String Calculator", () => {
   // test: empty string should return 0.
   test("should return 0 for an empty string", () => {
-    expect(add("")).toBe(0);
+    expect(add("")).toBe(0); 
   });
   // test: simple number should return that number.
   test("should return the number itself if only one number is provided", () => {
